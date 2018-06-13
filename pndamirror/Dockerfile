@@ -1,4 +1,4 @@
-FROM local/c7-systemd
+FROM centos:7
 ENV container docker
 RUN (\
 useradd -ms /bin/bash pnda; \
